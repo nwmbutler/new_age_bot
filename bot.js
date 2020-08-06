@@ -1,4 +1,6 @@
+const NewAge = require("./newAge")
 console.log('the bot is starting')
+let na = new NewAge();
 
 var Twit = require('twit');
 var config = require('./config');
@@ -9,7 +11,7 @@ setInterval(tweetIt, 1000*60*60)
 
 function tweetIt() {
 
-  var post = "something";
+  var post = na.returnNewAgeBs();
 
   var tweet = { 
       status: post + " #mystical"
