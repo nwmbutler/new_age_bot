@@ -1,3 +1,4 @@
+require('dotenv').config()
 const NewAge = require("./newAge")
 console.log('the bot is starting')
 let na = new NewAge();
