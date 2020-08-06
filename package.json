@@ -1,0 +1,23 @@
+{
+  "name": "newage",
+  "version": "1.0.0",
+  "description": "new age",
+  "main": "bot.js",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nwmbutler/new_age_bot.git"
+  },
+  "author": "Nick Butler",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nwmbutler/new_age_bot/issues"
+  },
+  "homepage": "https://github.com/nwmbutler/new_age_bot#readme"
+}
