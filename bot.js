@@ -15,7 +15,7 @@ function tweetIt() {
   var post = na.returnNewAgeBs();
 
   var tweet = { 
-      status: post + " #mystical"
+      status: post + " #mystical #newage"
   }
 
   T.post('statuses/update', tweet, tweeted);
