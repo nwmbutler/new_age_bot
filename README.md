@@ -12,3 +12,5 @@
 <img src="public/secondTweet.png" width="100%">
 <br><br>
 </p>
+
+## Successfully deployed to Heroku and sending automated tweets every hour!!
